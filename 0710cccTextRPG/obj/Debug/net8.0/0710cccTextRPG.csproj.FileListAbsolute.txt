@@ -12,3 +12,4 @@ G:\2주차\0710cccTextRPG\0710cccTextRPG\obj\Debug\net8.0\refint\0710cccTextRPG.
 G:\2주차\0710cccTextRPG\0710cccTextRPG\obj\Debug\net8.0\0710cccTextRPG.pdb
 G:\2주차\0710cccTextRPG\0710cccTextRPG\obj\Debug\net8.0\0710cccTextRPG.genruntimeconfig.cache
 G:\2주차\0710cccTextRPG\0710cccTextRPG\obj\Debug\net8.0\ref\0710cccTextRPG.dll
+G:\2주차\0710cccTextRPG\0710cccTextRPG\obj\Debug\net8.0\0710cccTextRPG.sourcelink.json
