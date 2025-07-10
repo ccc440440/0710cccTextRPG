@@ -18,6 +18,8 @@ namespace _0710cccTextRPG
         public string? Classs { get; set; } = "";
         public float AttackPower { get; set; } = 10.0f;
         public float ArmorClass { get; set; } = 5.0f;
+        public float BaseAttackPower { get; private set; } = 10.0f;
+        public float BaseArmorClass { get; private set; } = 5.0f;
         public float MaxHP { get; set; } = 100.0f;
         public float HP { get; set; } = 100.0f;
         public int PlayerGold { get; set; } = 1500;
@@ -89,14 +91,15 @@ namespace _0710cccTextRPG
             {
                 PlayerExp -= RequiredExp;
                 Level++;
-                AttackPower += 0.5f;
-                ArmorClass += 1.0f;
+                BaseAttackPower += 0.5f;
+                BaseArmorClass += 1.0f;
                 Console.WriteLine();
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.WriteLine($"  [레벨업] Lv.{Level}이 되었다! 공격력과 방어력이 증가했다. 더 청소에 능숙해진 것이다...");
                 Console.ResetColor();
                 RequiredExp = Level * 5;
             }
+            StatsF5();
         }
 
 
@@ -133,11 +136,13 @@ namespace _0710cccTextRPG
                     {
                         EquippedWeapon = selectedItem;
                         Console.WriteLine($"\n[무기] {selectedItem.Name}을(를) 장착했다.");
+                        StatsF5();
                     }
                     else if (selectedItem.Type == ItemType.Armor)
                     {
                         EquippedArmor = selectedItem;
                         Console.WriteLine($"\n[방어구] {selectedItem.Name}을(를) 장착했다.");
+                        StatsF5();
                     }
                     else
                     {
@@ -154,6 +159,22 @@ namespace _0710cccTextRPG
                 }
             }
         }
+        public void StatsF5()
+        {
+            AttackPower = BaseAttackPower;
+            ArmorClass = BaseArmorClass;
+
+            if (EquippedWeapon != null)
+                AttackPower += EquippedWeapon.Power;
+
+            if (EquippedArmor != null)
+                ArmorClass += EquippedArmor.Power;
+        }
+
+
+
+
+
         public void SaveGame()
         {
             var saveData = JsonSerializer.Serialize(this, new JsonSerializerOptions { WriteIndented = true });

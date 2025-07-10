@@ -31,7 +31,7 @@ namespace _0710cccTextRPG
                 {
                     case "1":
                         Console.WriteLine();
-                        Effects.Ttyyppee("  좋다. 자네의 이름을 알려다오.");
+                        Effects.Ttyyppee("  좋아. 자네의 이름을 알려주게.");
                         Console.WriteLine();
                         Console.WriteLine();
                         ChoiceLoop_1 = false;
@@ -55,7 +55,7 @@ namespace _0710cccTextRPG
                             {
                                 case "1":
                                     Console.WriteLine();
-                                    Effects.Ttyyppee("  좋다. 자네의 이름을 알려다오.");
+                                    Effects.Ttyyppee("  좋아. 자네의 이름을 알려주게.");
                                     Console.WriteLine();
                                     Console.WriteLine();
                                     ChoiceLoop_2 = false;
@@ -66,7 +66,7 @@ namespace _0710cccTextRPG
                                     Console.WriteLine();
                                     Effects.Ttyyppee("  ...");
                                     Thread.Sleep(1100);
-                                    Effects.Ttyyppee("  그냥 자네의 이름을 알려다오.");
+                                    Effects.Ttyyppee("  그냥 자네의 이름을 알려주게...");
                                     Console.WriteLine();
                                     Console.WriteLine();
                                     ChoiceLoop_2 = false;
@@ -153,10 +153,11 @@ namespace _0710cccTextRPG
 
                 Console.WriteLine();
             }
-
-            Console.Clear();
+            Thread.Sleep(100);
+            Console.WriteLine();
             Effects.Ttyyppee("  좋아. 그럼 거두절미하고,");
             Thread.Sleep(200);
+            Console.WriteLine();
             Effects.Ttyyppee(" 바로 청소를 시작하도록 하지.");
             Thread.Sleep(400);
             new MainScene().Start();

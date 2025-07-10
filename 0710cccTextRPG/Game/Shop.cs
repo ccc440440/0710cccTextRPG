@@ -24,7 +24,8 @@ namespace _0710cccTextRPG
             while (true)
             {
                 Console.Clear();
-                Effects.Ttyyppee("  어서오세요~ 다이쏘입니다~\n");
+                Console.WriteLine("  어서오세요~ 다이쏘입니다~");
+                Thread.Sleep(100);
                 Console.WriteLine();
                 Console.WriteLine("  [아이템 목록] ");
 
@@ -34,7 +35,7 @@ namespace _0710cccTextRPG
                     string info = item.ItemInfo(false);
 
                     if (alreadyOwned)
-                        info = info.Replace($"{item.Price}G", "구매완료".PadLeft(8));
+                        info = info.Replace($"{item.Price}G", "*구매완료*".PadLeft(8));
                     else
                         info = info.Replace($"{item.Price}G", $"{item.Price} G".PadLeft(8));
 
@@ -81,6 +82,10 @@ namespace _0710cccTextRPG
 
                 Console.WriteLine($"{i + 1}. {info}");
             }
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine($"  현재 소지금: {PlayerProfile.Instance.PlayerGold} G");
+            Console.WriteLine("");
             Console.WriteLine("0. 나가기");
             Console.Write("\n구매할 아이템 번호 선택: ");
             string input = Console.ReadLine();
@@ -136,7 +141,10 @@ namespace _0710cccTextRPG
                 int sellPrice = (int)(item.Price * 0.85f);
                 Console.WriteLine($"{i + 1}. {item.ItemInfo()} (판매가: {sellPrice} G)");
             }
-
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine($"  현재 소지금: {PlayerProfile.Instance.PlayerGold} G");
+            Console.WriteLine("");
             Console.WriteLine("0. 나가기");
             Console.WriteLine();
             Console.Write("판매할 아이템 번호 선택: ");
@@ -152,10 +160,12 @@ namespace _0710cccTextRPG
                 if (item == PlayerProfile.Instance.EquippedWeapon)
                 {
                     PlayerProfile.Instance.EquippedWeapon = null;
+                    PlayerProfile.Instance.StatsF5();
                 }
                 else if (item == PlayerProfile.Instance.EquippedArmor)
                 {
                     PlayerProfile.Instance.EquippedArmor = null;
+                    PlayerProfile.Instance.StatsF5();
                 }
 
                 PlayerProfile.Instance.PlayerGold += sellPrice;

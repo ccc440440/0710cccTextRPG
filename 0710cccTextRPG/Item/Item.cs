@@ -39,7 +39,7 @@ namespace _0710cccTextRPG
                 Console.Write("");
             }
             string stat = Type == ItemType.Weapon ? $"공격력 +{Power}" : $"방어력 +{Power}";
-            return $"{Name.PadRight(14)} | <{Type}> | {stat} | {Description} | {Price}G";
+            return $"{Name.PadRight(20)} | <{Type}> | {stat} | {Description} | {Price}G";
         }
     }
 

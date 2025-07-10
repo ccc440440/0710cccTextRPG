@@ -17,7 +17,7 @@ namespace _0710cccTextRPG
                 {
                     Console.Clear();
                     Console.WriteLine();
-                    Effects.Ttyyppee("  자네 체력이 0이군! 더 이상의 청소는 무리야. 휴식을 취하게.");
+                    Effects.Ttyyppee("  자네 체력이 0이군! 더 이상의 청소는 무리야. 휴식을 취하게.", 15);
                     Console.WriteLine();
                     Console.WriteLine();
                     Console.WriteLine("  [아무 키나 눌러서 나가기]");
