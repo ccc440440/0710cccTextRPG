@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "G:\\2\uC8FC\uCC28\\0710cccTextRPG\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2103D652-4709-4CF1-8431-BC2BCFD0BCA7}|0710cccTextRPG\\0710cccTextRPG.csproj|g:\\2\uC8FC\uCC28\\0710ccctextrpg\\0710ccctextrpg\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2103D652-4709-4CF1-8431-BC2BCFD0BCA7}|0710cccTextRPG\\0710cccTextRPG.csproj|solutionrelative:0710ccctextrpg\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2103D652-4709-4CF1-8431-BC2BCFD0BCA7}|0710cccTextRPG\\0710cccTextRPG.csproj|g:\\2\uC8FC\uCC28\\0710ccctextrpg\\0710ccctextrpg\\inventory\\playerprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2103D652-4709-4CF1-8431-BC2BCFD0BCA7}|0710cccTextRPG\\0710cccTextRPG.csproj|solutionrelative:0710ccctextrpg\\inventory\\playerprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "G:\\2\uC8FC\uCC28\\0710cccTextRPG\\0710cccTextRPG\\Program.cs",
+              "RelativeDocumentMoniker": "0710cccTextRPG\\Program.cs",
+              "ToolTip": "G:\\2\uC8FC\uCC28\\0710cccTextRPG\\0710cccTextRPG\\Program.cs",
+              "RelativeToolTip": "0710cccTextRPG\\Program.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAAwC8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T10:39:30.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlayerProfile.cs",
+              "DocumentMoniker": "G:\\2\uC8FC\uCC28\\0710cccTextRPG\\0710cccTextRPG\\Inventory\\PlayerProfile.cs",
+              "RelativeDocumentMoniker": "0710cccTextRPG\\Inventory\\PlayerProfile.cs",
+              "ToolTip": "G:\\2\uC8FC\uCC28\\0710cccTextRPG\\0710cccTextRPG\\Inventory\\PlayerProfile.cs",
+              "RelativeToolTip": "0710cccTextRPG\\Inventory\\PlayerProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T13:21:41.266Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

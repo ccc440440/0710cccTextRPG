@@ -1,0 +1,14 @@
+G:\2주차\0710cccTextRPG\0710cccTextRPG\bin\Debug\net8.0\0710cccTextRPG.exe
+G:\2주차\0710cccTextRPG\0710cccTextRPG\bin\Debug\net8.0\0710cccTextRPG.deps.json
+G:\2주차\0710cccTextRPG\0710cccTextRPG\bin\Debug\net8.0\0710cccTextRPG.runtimeconfig.json
+G:\2주차\0710cccTextRPG\0710cccTextRPG\bin\Debug\net8.0\0710cccTextRPG.dll
+G:\2주차\0710cccTextRPG\0710cccTextRPG\bin\Debug\net8.0\0710cccTextRPG.pdb
+G:\2주차\0710cccTextRPG\0710cccTextRPG\obj\Debug\net8.0\0710cccTextRPG.GeneratedMSBuildEditorConfig.editorconfig
+G:\2주차\0710cccTextRPG\0710cccTextRPG\obj\Debug\net8.0\0710cccTextRPG.AssemblyInfoInputs.cache
+G:\2주차\0710cccTextRPG\0710cccTextRPG\obj\Debug\net8.0\0710cccTextRPG.AssemblyInfo.cs
+G:\2주차\0710cccTextRPG\0710cccTextRPG\obj\Debug\net8.0\0710cccTextRPG.csproj.CoreCompileInputs.cache
+G:\2주차\0710cccTextRPG\0710cccTextRPG\obj\Debug\net8.0\0710cccTextRPG.dll
+G:\2주차\0710cccTextRPG\0710cccTextRPG\obj\Debug\net8.0\refint\0710cccTextRPG.dll
+G:\2주차\0710cccTextRPG\0710cccTextRPG\obj\Debug\net8.0\0710cccTextRPG.pdb
+G:\2주차\0710cccTextRPG\0710cccTextRPG\obj\Debug\net8.0\0710cccTextRPG.genruntimeconfig.cache
+G:\2주차\0710cccTextRPG\0710cccTextRPG\obj\Debug\net8.0\ref\0710cccTextRPG.dll
