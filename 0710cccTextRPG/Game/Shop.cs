@@ -10,7 +10,12 @@ namespace _0710cccTextRPG
         {
             new Item("낡은 빗자루", "쉽게 볼 수 있는 낡은 빗자루입니다.", ItemType.Weapon, 2, 300),
             new Item("곤색 앞치마", "은은하게 세제와 락스의 냄새가 납니다.", ItemType.Armor, 5, 500),
-            new Item("중국산 청소기", "테X에서 구매한 제품치곤 쓸만합니다.", ItemType.Weapon, 7, 800)
+            new Item("중국산 청소기", "테X에서 구매한 제품치곤 쓸만합니다.", ItemType.Weapon, 7, 800),
+            new Item("촌스러운 앞치마", "청소의 고수가 된 기분입니다.", ItemType.Armor, 8, 2000),
+            new Item("적당한 밀대", "봉 가운데가 비어있어 아주 가볍습니다.", ItemType.Weapon, 10, 5000),
+            new Item("고무장갑", "아주 기본에 충실합니다.", ItemType.Armor, 15, 39800),
+            new Item("방역복", "이렇게까지 해야할까요?", ItemType.Armor, 23, 100000),
+            new Item("충전식 진공청소기", "Tyson", ItemType.Weapon, 30, 250000)
         };
 
         public void Enter()
