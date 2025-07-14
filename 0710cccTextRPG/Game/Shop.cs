@@ -29,6 +29,8 @@ namespace _0710cccTextRPG
                 Console.WriteLine();
                 Console.WriteLine("  [아이템 목록] ");
 
+
+
                 foreach (var item in shopItems)
                 {
                     bool alreadyOwned = PlayerProfile.Instance.Inventory.Exists(x => x.Name == item.Name);

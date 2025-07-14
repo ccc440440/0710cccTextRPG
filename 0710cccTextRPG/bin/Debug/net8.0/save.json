@@ -1,16 +1,16 @@
 {
   "Level": 2,
-  "PlayerExp": 0,
+  "PlayerExp": 5,
   "RequiredExp": 10,
-  "PlayerName": "asdfghjkl;lhdtui",
+  "PlayerName": "\uAE40\uC815\uBBFC",
   "Classs": "\uBD84\uB9AC\uC218\uAC70\uB9E8",
   "AttackPower": 17.5,
   "ArmorClass": 11,
   "BaseAttackPower": 10.5,
   "BaseArmorClass": 6,
   "MaxHP": 100,
-  "HP": 68,
-  "PlayerGold": 2461,
+  "HP": 100,
+  "PlayerGold": 3780,
   "Inventory": [
     {},
     {}

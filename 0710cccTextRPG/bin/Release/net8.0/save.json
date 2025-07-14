@@ -1,0 +1,44 @@
+{
+  "Level": 4,
+  "PlayerExp": 5,
+  "RequiredExp": 20,
+  "PlayerName": "\uAE40\uC815\uBBFC",
+  "Classs": "\uBD84\uB9AC\uC218\uAC70\uB9E8",
+  "AttackPower": 21.5,
+  "ArmorClass": 16,
+  "BaseAttackPower": 11.5,
+  "BaseArmorClass": 8,
+  "MaxHP": 100,
+  "HP": 58,
+  "PlayerGold": 11125,
+  "Inventory": [
+    {
+      "Name": "\uCD0C\uC2A4\uB7EC\uC6B4 \uC55E\uCE58\uB9C8",
+      "Description": "\uCCAD\uC18C\uC758 \uACE0\uC218\uAC00 \uB41C \uAE30\uBD84\uC785\uB2C8\uB2E4.",
+      "Type": 1,
+      "Power": 8,
+      "Price": 2000
+    },
+    {
+      "Name": "\uC801\uB2F9\uD55C \uBC00\uB300",
+      "Description": "\uBD09 \uAC00\uC6B4\uB370\uAC00 \uBE44\uC5B4\uC788\uC5B4 \uC544\uC8FC \uAC00\uBCCD\uC2B5\uB2C8\uB2E4.",
+      "Type": 0,
+      "Power": 10,
+      "Price": 5000
+    }
+  ],
+  "EquippedWeapon": {
+    "Name": "\uC801\uB2F9\uD55C \uBC00\uB300",
+    "Description": "\uBD09 \uAC00\uC6B4\uB370\uAC00 \uBE44\uC5B4\uC788\uC5B4 \uC544\uC8FC \uAC00\uBCCD\uC2B5\uB2C8\uB2E4.",
+    "Type": 0,
+    "Power": 10,
+    "Price": 5000
+  },
+  "EquippedArmor": {
+    "Name": "\uCD0C\uC2A4\uB7EC\uC6B4 \uC55E\uCE58\uB9C8",
+    "Description": "\uCCAD\uC18C\uC758 \uACE0\uC218\uAC00 \uB41C \uAE30\uBD84\uC785\uB2C8\uB2E4.",
+    "Type": 1,
+    "Power": 8,
+    "Price": 2000
+  }
+}

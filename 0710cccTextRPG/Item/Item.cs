@@ -11,11 +11,12 @@ namespace _0710cccTextRPG
     
     public class Item
     {
-        public string Name;
-        public ItemType Type;
-        public int Power;
-        public string Description;
-        public int Price;
+        public string Name { get; set; } = "";
+        public string Description { get; set; } = "";
+        public ItemType Type { get; set; }
+        public int Power { get; set; }
+        public int Price { get; set; }
+        public Item() { }
 
         public Item(string name, string desc, ItemType type, int power, int price)
         {
@@ -48,6 +49,6 @@ namespace _0710cccTextRPG
 
 
 
-
+    
 }
 
